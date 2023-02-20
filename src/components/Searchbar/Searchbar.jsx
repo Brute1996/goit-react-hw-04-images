@@ -19,7 +19,7 @@ export const SearchBar = ({onSubmit}) => {
 
         onSubmit(imageName)
         
-        e.target.reset()
+        setImageName('')
     }
 
     return (
